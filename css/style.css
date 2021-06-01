@@ -9,6 +9,14 @@ h1{
     margin-bottom: 40px;
     color:#483C32;
 }
+.error{
+    font-size: 11px;
+    color: red;
+}
+.correct{
+    font-size: 11px;
+    color: green;
+}
 #parent{
     width:100%;
 }

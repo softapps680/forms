@@ -4,16 +4,18 @@ const login = () =>{
         let mailformat = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
         
        
-        if(!mailformat.test(document.getElementById('user').value)|| document.getElementById('pass').value=='') {
+        if(!mailformat.test(document.getElementById('user').value)) {
                 formError.innerText='Nåt fält fel'
+                formCorrect.innerText=''
                 return false;
         }
-       /* if(document.getElementById('pass').value=='') {
+       if(document.getElementById('pass').value=='') {
                 formError.innerText='Nåt fält fel'
+                formCorrect.innerText=''
                 return false;
-        }*/
-     
+        }
                 formError.innerText=''
+                formCorrect.innerText='Loggar in...'
                 return true;
 
        
