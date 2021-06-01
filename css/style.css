@@ -15,31 +15,39 @@ h1{
 
 #login{
     
-    background-color: pink;
+    background-color: #F3F2F2;
     width: 50%;
     margin: 0 auto;
     margin-top: 150px;
     padding: 30px;
     border-radius: 12px;
+    box-shadow: 5px 5px #cccccc;
     
 }
 #register{
-    background-color: #98fb98;
+    background-color: #F3F2F2;
+    box-shadow: 5px 5px #cccccc;
     width: 600px;
     margin: 0 auto;
     margin-top: 50px;
     padding: 30px;
     border-radius: 12px;
 }
-.lbl{
+.lbl, .links a{
     font-size: small;
-    
+    color: #000;
 }
 .btn{
     color:#000;
     border-color: #000;
     
 }
+
+  .btn.disabled,.btn[disabled]{
+        color:grey;
+        border-color: grey; 
+    }
+
 .btn:hover{
     border-color: #000;
     color:#000;
@@ -47,7 +55,29 @@ h1{
     background-color:#0000 ;
 }
 
-.fab{
+.socmedialogin{
+    margin-left:60px;
+    margin-top: 60px;
+}
+#socmediashape{
     color:#fff;
-    background-color: ;
+    width:200px;
+    height:40px;
+    border-radius: 12px;
+    padding:10px 0 0 10px;
+    font-family: 'Roboto';
+}
+#socmediashape h5 {
+    text-align: center;
+    font-size: 14px;
+    margin-top: -20px;
+}
+.fb{
+    background-color: #3b5998;
+}
+.goo{
+    background-color: #DB4437;
+}
+.twi{
+    background-color: #1DA1F2;
 }
