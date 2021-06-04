@@ -1,91 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
-body{
-    font-family: 'Roboto', sans-serif;   
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-h1{
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 40px;
-    color:#483C32;
-}
-.error{
-    font-size: 11px;
-    color: red;
-}
-.correct{
-    font-size: 11px;
-    color: green;
-}
-#parent{
-    width:100%;
+body a, body .lbl {
+  font-size: small;
+  color: #483C32;
+  font-weight: 400;
 }
 
-#login{
-    
-    background-color: #F3F2F2;
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 150px;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 5px 5px #cccccc;
-    
-}
-#register{
-    background-color: #F3F2F2;
-    box-shadow: 5px 5px #cccccc;
-    width: 600px;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding: 30px;
-    border-radius: 12px;
-}
-.lbl, .links a{
-    font-size: small;
-    color: #000;
-}
-.btn{
-    color:#000;
-    border-color: #000;
-    
+body h1 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #483C32;
 }
 
-  .btn.disabled,.btn[disabled]{
-        color:grey;
-        border-color: grey; 
-    }
-
-.btn:hover{
-    border-color: #000;
-    color:#000;
-    font-weight: 700;
-    background-color:#0000 ;
+body h5 {
+  font-size: 14px;
+  text-align: center;
+  margin-top: -20px;
 }
 
-.socmedialogin{
-    margin-left:60px;
-    margin-top: 60px;
+body .error {
+  font-size: 11px;
+  color: red;
 }
-#socmediashape{
-    color:#fff;
-    width:200px;
-    height:40px;
-    border-radius: 12px;
-    padding:10px 0 0 10px;
-    font-family: 'Roboto';
+
+body .correct {
+  font-size: 11px;
+  color: green;
 }
-#socmediashape h5 {
-    text-align: center;
-    font-size: 14px;
-    margin-top: -20px;
+
+#login {
+  background-color: #F3F2F2;
+  padding: 30px;
+  box-shadow: 5px 5px #cccccc;
+  border-radius: 12px;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 150px;
 }
-.fb{
-    background-color: #3b5998;
+
+#login .btn {
+  color: #000000;
+  border-color: #000000;
 }
-.goo{
-    background-color: #DB4437;
+
+#login .btn:hover {
+  background-color: transparent;
+  font-weight: 600;
 }
-.twi{
-    background-color: #1DA1F2;
+
+#socmedialogin {
+  padding-left: 50px;
+}
+
+#socmedialogin .socmediashape1 {
+  background-color: #3b5998;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  border-radius: 12px;
+  padding: 10px 0 0 10px;
+  font-family: 'Roboto';
+}
+
+#socmedialogin .socmediashape2 {
+  background-color: #DB4437;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  border-radius: 12px;
+  padding: 10px 0 0 10px;
+  font-family: 'Roboto';
+}
+
+#socmedialogin .socmediashape3 {
+  background-color: #1DA1F2;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  border-radius: 12px;
+  padding: 10px 0 0 10px;
+  font-family: 'Roboto';
+}
+
+#register {
+  background-color: #F3F2F2;
+  padding: 30px;
+  box-shadow: 5px 5px #cccccc;
+  border-radius: 12px;
+  margin: 0 auto;
+  width: 600px;
+  margin-top: 50px;
+}
+
+#register .btn {
+  color: #000000;
+  border-color: #000000;
+}
+
+#register .btn:hover {
+  background-color: transparent;
+  font-weight: 600;
 }
